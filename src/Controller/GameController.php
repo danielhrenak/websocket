@@ -13,4 +13,9 @@ class GameController extends AppController
         $this->set(compact('scores'));
     }
 
+    public function race()
+    {
+
+    }
+
 }
