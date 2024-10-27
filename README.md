@@ -1,7 +1,16 @@
 Example from https://clouddevs.com/cakephp/real-time-chat-application/
 
+# How to run
 
-### Adjustmenst for Sqlite in step 3:
+```bash
+bin/cake chat
+bin/cake server
+```
+
+In browser open http://localhost:8765/chat
+
+
+## Adjustmenst for Sqlite in step 3:
 ```php
 'Datasources' => [
     'default' => [
