@@ -79,6 +79,8 @@ return function (RouteBuilder $routes): void {
         $builder->connect('/chat', ['controller' => 'Chat', 'action' => 'index']);
         $builder->connect('/game', ['controller' => 'Game', 'action' => 'index']);
         $builder->connect('/game/race', ['controller' => 'Game', 'action' => 'race']);
+        $builder->connect('/game/circle', ['controller' => 'Game', 'action' => 'circle']);
+        $builder->connect('/game/fingers', ['controller' => 'Game', 'action' => 'fingers']);
 
         $builder->fallbacks();
     });

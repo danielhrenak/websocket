@@ -78,7 +78,7 @@
     function moveObstacles() {
         obstacles.forEach((obstacle, index) => {
             const obstacleY = parseInt(obstacle.style.top) || 0;
-            obstacle.style.top = obstacleY + 5 + 'px';
+            obstacle.style.top = obstacleY + 1 + 'px';
 
             // Skontroluje, či došlo ku kolízii
             if (obstacleY + 50 >= gameContainer.offsetHeight - 70 &&

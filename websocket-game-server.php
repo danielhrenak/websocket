@@ -16,6 +16,6 @@ $server = IoServer::factory(
     ),
     8080
 );
-echo "WebSocket chat server started\n";
+echo "WebSocket game server started\n";
 $server->run();
 

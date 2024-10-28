@@ -18,4 +18,14 @@ class GameController extends AppController
 
     }
 
+    public function circle()
+    {
+        $this->viewBuilder()->disableAutoLayout();
+    }
+
+    public function fingers()
+    {
+        $this->viewBuilder()->disableAutoLayout();
+    }
+
 }
